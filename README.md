@@ -26,3 +26,9 @@
 Credit card fraud is a major source of financial trouble not only for consumers, but for banks too. 
 
 Credit card fraud detection is a set of tools and protocols which card issuers use to detect suspicious activity that could indicate a fraud attempt. These tools are generally proactive, aiming to stop credit card fraud before it starts. They also help to prevent financial losses caused by credit card fraud
+
+### Why It's important?
+
+Credit Card Fraud Detection helps to prevent financial losses caused by credit card fraud.
+
+## 2- The Dataset
