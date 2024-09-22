@@ -7,7 +7,7 @@
 <Details><summary> Click To Expand</summary>
 
 1. [About The Idea](#1--about-the-idea)
-2. [The Dataset]()
+2. [The Dataset](#2--the-dataset)
 3. [Project WorkFlow]()
 4. [Data Preprocessing]()
 5. [Exploratory Data Analysis]()
@@ -31,4 +31,13 @@ Credit card fraud detection is a set of tools and protocols which card issuers u
 
 Credit Card Fraud Detection helps to prevent financial losses caused by credit card fraud.
 
-## 2- The Dataset
+## 2- The Dataset:
+
+The dataset contains transactions made by credit cards in September 2013 by European cardholders.
+This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions. [The dataset link and read more about it here](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud).
+
+## 3- Project WorkFlow
+
+Project workflow is as follows:
+
+
