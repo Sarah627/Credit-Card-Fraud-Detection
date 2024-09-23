@@ -2,13 +2,17 @@
 import pandas as pd
 
 # %%
-dataset=pd.read_csv("Credit-Card-Fraud-Detection/cleansed_dataset.csv")
+dataset=pd.read_csv("cleansed_dataset.csv")
 dataset.head()
 
 # %%
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
+
+
+# %%
+print(list(dataset.columns))
 
 
 # %%

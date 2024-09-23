@@ -19,7 +19,7 @@ def predict(input_data: ModelInput):
     input_list = [list(input_data.features.values())]
     prediction = model.predict(input_list)
 
-    # Convert prediction to descriptive label
+    
     label = "Fraud" if prediction[0] == 1.0 else "non-fraud"
 
     return {"prediction": label}
