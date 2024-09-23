@@ -2,7 +2,7 @@
 import pandas as pd
 
 # %%
-dataset=pd.read_csv(r"E:\Courses\DEPI\New folder\cleansed_dataset.csv")
+dataset=pd.read_csv("Credit-Card-Fraud-Detection/cleansed_dataset.csv")
 dataset.head()
 
 # %%
