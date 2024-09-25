@@ -68,6 +68,15 @@ Data was collected and downloaded from [here](https://www.kaggle.com/datasets/ml
 
 ## 4- Preprocessing
 
+Before feeding the data into the model directly, the data preprocessing step is done first. The used preprocessing techniques used:
+
+1. Ensuring the data is clean (no null values, outliers, ...etc)
+2. Checking the class imabalance (solved using sampling)
+3. PCA was already applied on the data, so we ensured that all the values are normalized using the standard scaler for better training.
+4. exported the cleansed data
+
+
+
 
 
 
