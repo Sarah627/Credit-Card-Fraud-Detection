@@ -75,6 +75,23 @@ Before feeding the data into the model directly, the data preprocessing step is 
 3. PCA was already applied on the data, so we ensured that all the values are normalized using the standard scaler for better training.
 4. exported the cleansed data
 
+### 1. Cleansing the data:
+   
+   - After importing the dataset in the notebook using `pandas`, we gained some insights about the dataset using `.info()` function as follows:
+    
+   ![dataset insights](/images/data%20insights.png) 
+
+   - Only the target column is of type integer and the rest of the columns are of float type, also they are all have the same count (no missing values), you can check for null values using `df.isnull().sum()` to sum the null vaules of each column.
+   - The dataset is too large, we have to check to class imabalnce to prevent bias:
+   
+
+   ![class imabalance](/images/class%20imbalance.png)
+
+
+   - After visualizing the calss balance, we found that one of two classes is too little to the other class, so a class imbalance problem is addressed here to be solved.
+   
+   - There are multiple techniques to resolve class imbalance: GANs, SMOTE, resampling, ...etc. We used `resampling` using `scikit-learn` library.
+
 
 
 
