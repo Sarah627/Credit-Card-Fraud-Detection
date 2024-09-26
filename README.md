@@ -91,6 +91,7 @@ Before feeding the data into the model directly, the data preprocessing step is 
    - After visualizing the calss balance, we found that one of two classes is too little to the other class, so a class imbalance problem is addressed here to be solved.
    
    - There are multiple techniques to resolve class imbalance: GANs, SMOTE, resampling, ...etc. We used `resampling` using `scikit-learn` library.
+   - The data was resampled into small example (undersampling), because oversampling would make the data too large.
 
 
 
