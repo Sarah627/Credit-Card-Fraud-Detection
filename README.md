@@ -93,6 +93,8 @@ Before feeding the data into the model directly, the data preprocessing step is 
    - There are multiple techniques to resolve class imbalance: GANs, SMOTE, resampling, ...etc. We used `resampling` using `scikit-learn` library.
    - The data was resampled into small example (undersampling), because oversampling would make the data too large.
 
+   ![resampling](images/resampling.png) 
+
 
 
 
