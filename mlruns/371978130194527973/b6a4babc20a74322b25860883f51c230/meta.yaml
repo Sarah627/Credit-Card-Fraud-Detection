@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Mostafa/PycharmProjects/Credit-Card-Fraud-Detection/random_forest_artifacts/b6a4babc20a74322b25860883f51c230/artifacts
+end_time: 1728213699862
+entry_point_name: ''
+experiment_id: '371978130194527973'
+lifecycle_stage: active
+run_id: b6a4babc20a74322b25860883f51c230
+run_name: random_forest_v_200
+run_uuid: b6a4babc20a74322b25860883f51c230
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728213696713
+status: 3
+tags: []
+user_id: Mostafa
