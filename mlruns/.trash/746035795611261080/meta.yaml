@@ -1,6 +1,7 @@
 artifact_location: file:///E:/DEPI_AI/Credit-Card-Fraud-Detection/logistic_regression_artifacts
 creation_time: 1728200461845
 experiment_id: '746035795611261080'
-last_update_time: 1728200461845
-lifecycle_stage: active
+last_update_time: 1728202824835
+lifecycle_stage: deleted
 name: logistic_regression
+tags: {}

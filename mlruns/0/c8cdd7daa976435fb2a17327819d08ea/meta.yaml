@@ -1,0 +1,16 @@
+artifact_uri: file:///E:/DEPI_AI/Credit-Card-Fraud-Detection/mlruns/0/c8cdd7daa976435fb2a17327819d08ea/artifacts
+deleted_time: 1728204573916
+end_time: 1728203592125
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c8cdd7daa976435fb2a17327819d08ea
+run_name: logistic_regression_v_4000
+run_uuid: c8cdd7daa976435fb2a17327819d08ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728203588738
+status: 3
+tags: []
+user_id: Mostafa
