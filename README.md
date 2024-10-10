@@ -95,6 +95,8 @@ Before feeding the data into the model directly, the data preprocessing step is 
 
    ![resampling](images/resampling.png) 
 
+  - Another technique was applied is to augment the minor class using GANs:
+
 
 
 
