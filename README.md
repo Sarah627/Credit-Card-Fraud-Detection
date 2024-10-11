@@ -96,6 +96,9 @@ Before feeding the data into the model directly, the data preprocessing step is 
    ![resampling](images/resampling.png) 
 
   - Another technique was applied is to augment the minor class using GANs:
+    - Augmentation using GAN: To avoid information loss, we applied Generative Adversarial Networks (GANs) to synthetically generate new fraud examples, thereby increasing the size of the fraud class to match the non-fraudulent transactions. While this technique provided more balanced data, it led to a large dataset, slowing down the computation due to the sheer number of non-fraud cases (over 200k).
+
+
 
 
 
