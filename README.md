@@ -97,6 +97,7 @@ Before feeding the data into the model directly, the data preprocessing step is 
 
   - Another technique was applied is to augment the minor class using GANs:
     - Augmentation using GAN: To avoid information loss, we applied Generative Adversarial Networks (GANs) to synthetically generate new fraud examples, thereby increasing the size of the fraud class to match the non-fraudulent transactions. While this technique provided more balanced data, it led to a large dataset, slowing down the computation due to the sheer number of non-fraud cases (over 200k).
+    - We just needed to prove a point using the GAN model, that it can be used to augment numerical data which is also processed before using PCA which added another challenge to GAN network, the idea was inspired from this blog: [Fruad Detection WIth GANS](https://towardsdatascience.com/fraud-detection-with-generative-adversarial-nets-gans-26bea360870d)   
 
 
 
