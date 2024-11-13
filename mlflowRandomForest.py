@@ -11,10 +11,11 @@ from sklearn.ensemble import RandomForestClassifier
 dataset = pd.read_csv("cleansed_dataset.csv")
 x = dataset.drop('Class', axis=1)
 y = dataset['Class']
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
+x_train, x_test, y_train, y_test = train_test_split(
+    x, y, test_size=0.2, random_state=42)
 
 experiment_id = mlflow.create_experiment(
-    name="random_forest_v_1",
+    name="random_forest_v_2",
     artifact_location="random_forest_artifacts",
 )
 l = [50, 100, 200, 500, 1000, 2000]
